@@ -16,27 +16,34 @@ import Image from 'next/image';
 // footer_content 
 const footer_content  = {
     title: <>Get Our Latest's News <br /> & Updates</>,
-    description: <>Our highly skilled development teams <br /> specialized in data analysis.</>,
-    phone: "+806(000)8899",
-    contact_mail: "contact@info.com",
-    location: "1234 North Avenue Luke Lane, South Bend,",
+    description: <>A co-pilot for CFOs, business owners and <br /> finance teams to control & 
+manage the cash.</>,
+    phone: "+91 62822 38059",
+    contact_mail: "founders@pennyflo.io",
+    location: "Pennyflo Limited, 128 City Road, London, EC1V 2NX, UK",
 
-    copy_right: <>Full Copyright & Design By <Link href="#">@Theme pure</Link> – {new Date().getFullYear()}</>,
+    copy_right: <>Full Copyright & Design By <Link href="#"> PENNYFLO LTD (Company No: 15318809)</Link> – {new Date().getFullYear()}</>,
 
     footer_lisks : [
         {
             id: 1,
             cls_1: "col-xl-3 col-lg-3 col-md-5",
             cls_2: "footer-col-2",
-            title: "What We Do",
+            title: "Main Pages",
             delay: ".7s",
             links: [
-                {name: "Business", link: "#"},
-                {name: "Technology", link: "#"},
-                {name: "Online Marketing", link: "#"},
-                {name: "Advertising Strategy", link: "#"},
-                {name: "Strategy", link: "#"},
-                {name: "Development", link: "#"},
+               //  {name: "Business", link: "#"},
+               //  {name: "Technology", link: "#"},
+               //  {name: "Online Marketing", link: "#"},
+               //  {name: "Advertising Strategy", link: "#"},
+               //  {name: "Strategy", link: "#"},
+               //  {name: "Development", link: "#"},
+               {name: "About", link: "/about"},
+               {name: "Products", link: "/project"},
+               {name: "Pricing", link: "/price"},
+               {name: "Careers", link: "/career"},
+               {name: "Blog", link: "/blog"},
+               {name: "Contact", link: "/contact"},
             ]
         },
         {
@@ -46,12 +53,18 @@ const footer_content  = {
             title: "Other Pages",
             delay: ".9s",
             links: [
-                {name: "About", link: "/about"},
-                {name: "Services", link: "/service"},
-                {name: "How It Works", link: "#"},
-                {name: "Pricing Plan", link: "/price"},
-                {name: "Blog", link: "/blog"},
-                {name: "Contact", link: "/contact"},
+               //  {name: "About", link: "/about"},
+               //  {name: "Services", link: "/service"},
+               //  {name: "How It Works", link: "#"},
+               //  {name: "Pricing Plan", link: "/price"},
+               //  {name: "Blog", link: "/blog"},
+               //  {name: "Contact", link: "/contact"},
+               {name: "Integrations", link: "/integration"},
+               {name: "Team", link: "/team"},
+               {name: "T&C", link: "#"},
+               {name: "Privacy Policy", link: "#"},
+               {name: "Log in", link: "/sign-in"},
+               {name: "Sign up", link: "/register"},
             ]
         },
 

@@ -14,24 +14,31 @@ import footer_logo from "../../../public/assets/img/logo/logo-black.png";
 
 
 const footer_content = {
-    info:"Build a modern and creative website with crealand",
-    phone: "+806 (000) 88 99",
-    email: "contact@info.com",
+    info: <>A co-pilot for CFOs, business owners and  finance teams to control & 
+manage the cash.</>,
+    phone: " +91 62822 38059",
+    email: "founders@pennyflo.io",
     
     footer_lisks : [
         {
             id: 1,
             cls_1: "col-xl-3 col-lg-3",
             cls_2: "footer-col-3-2",
-            title: "Navigation",
+            title: "Main Pages",
             delay: ".7s",
             links: [
-                {name: "Damo page", link: "#"},
-                {name: "About", link: "/about"},
-                {name: "Pricing Plan", link: "/price"},
-                {name: "Integrations", link: "/integrations"},
-                {name: "Blog", link: "/blog"},
-                {name: "Contact", link: "/contact"},
+               //  {name: "Damo page", link: "#"},
+               //  {name: "About", link: "/about"},
+               //  {name: "Pricing Plan", link: "/price"},
+               //  {name: "Integrations", link: "/integrations"},
+               //  {name: "Blog", link: "/blog"},
+               //  {name: "Contact", link: "/contact"},
+               {name: "About", link: "/about"},
+               {name: "Products", link: "/project"},
+               {name: "Pricing", link: "/price"},
+               {name: "Careers", link: "/career"},
+               {name: "Blog", link: "/blog"},
+               {name: "Contact", link: "/contact"},
             ]
         },
         {
@@ -41,12 +48,18 @@ const footer_content = {
             title: "Other Pages",
             delay: ".9s",
             links: [
-                {name: "Features", link: "#"},
-                {name: "Team", link: "/team"},
-                {name: "Careers", link: "#"},
-                {name: "Login", link: "/login"},
-                {name: "Register", link: "/register"},
-                {name: "404 Not found", link: "/404"},
+               //  {name: "Features", link: "#"},
+               //  {name: "Team", link: "/team"},
+               //  {name: "Careers", link: "#"},
+               //  {name: "Login", link: "/login"},
+               //  {name: "Register", link: "/register"},
+               //  {name: "404 Not found", link: "/404"},
+               {name: "Integrations", link: "/integration"},
+               {name: "Team", link: "/team"},
+               {name: "T&C", link: "#"},
+               {name: "Privacy Policy", link: "#"},
+               {name: "Log in", link: "/sign-in"},
+               {name: "Sign up", link: "/register"},
             ]
         },
 
@@ -130,10 +143,12 @@ const FooterFive = ({style_contact, bg_style=true, style_team}) => {
                               </div>
                               <div className="tp-footer__social-3">
                                  <h4>Social media</h4>
-                                 <Link href="#"><i className="fab fa-facebook-f"></i></Link>
-                                 <Link href="#"><i className="fab fa-twitter"></i></Link>
-                                 <Link href="#"><i className="fab fa-instagram"></i></Link>
-                                 <Link href="#"><i className="fab fa-pinterest"></i></Link>
+                                 {/* <Link href="#"><i className="fab fa-facebook-f"></i></Link> */}
+                                 {/* <Link href="#"><i className="fab fa-instagram"></i></Link>
+                                 <Link href="#"><i className="fab fa-pinterest"></i></Link> */}
+                                 <Link href="https://www.linkedin.com/company/pennyflo/"><i className="fab fa-linkedin-in"></i></Link>
+                                 <Link href="https://twitter.com/PennyFlo_"><i className="fab fa-twitter"></i></Link>
+                                 <Link href="https://www.youtube.com/@PennyFlo"><i className="fab fa-youtube"></i></Link>
                               </div>
                            </div>
                         </div>

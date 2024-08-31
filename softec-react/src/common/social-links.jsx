@@ -2,25 +2,30 @@ import Link from "next/link";
 
 
 const social_links = [
+  // {
+  //   link: "http://facebook.com",
+  //   target: "_blank",
+  //   icon: "fab fa-facebook-f", 
+  // },
+  // {
+  //   link: "https://twitter.com/PennyFlo_",
+  //   target: "_blank",
+  //   icon: "fab fa-twitter", 
+  // },
   {
-    link: "http://facebook.com",
-    target: "_blank",
-    icon: "fab fa-facebook-f", 
-  },
-  {
-    link: "http://twitter.com",
-    target: "_blank",
-    icon: "fab fa-twitter", 
-  },
-  {
-    link: "https://www.linkedin.com",
+    link: "https://www.linkedin.com/company/pennyflo/",
     target: "_blank",
     icon: "fab fa-linkedin-in", 
   }, 
   {
-    link: "https://www.vimeo.com",
+    link: "https://twitter.com/PennyFlo_",
     target: "_blank",
-    icon: "fab fa-vimeo-v", 
+    icon: "fab fa-twitter", 
+  },
+  {
+    link: "https://www.youtube.com/@PennyFlo",
+    target: "_blank",
+    icon: "fab fa-youtube", 
   },
 ];
 
@@ -66,31 +71,31 @@ export const CopyRight = ()  => {
 
 // home 04 social link
 const social_links_two = [
-  {
-    link: "http://facebook.com",
-    target: "_blank",
-    icon: "fab fa-facebook-f",
-    color: "1", 
-  },
-  {
-      link: "https://www.instagram.com",
-      target: "_blank",
-      icon: "fab fa-instagram", 
-      color: "2",
-  },
-
-  {
-    link: "http://twitter.com",
-    target: "_blank",
-    icon: "fab fa-twitter", 
-    color: "3",
-  },
+  // {
+  //   link: "http://facebook.com",
+  //   target: "_blank",
+  //   icon: "fab fa-facebook-f",
+  //   color: "1", 
+  // },
+  // {
+  //     link: "https://www.instagram.com",
+  //     target: "_blank",
+  //     icon: "fab fa-instagram", 
+  //     color: "2",
+  // },
   {
     link: "https://www.linkedin.com",
     target: "_blank",
     icon: "fab fa-linkedin-in",
     color: "4", 
   }, 
+  {
+    link: "http://twitter.com",
+    target: "_blank",
+    icon: "fab fa-twitter", 
+    color: "3",
+  },
+ 
 ];
 
 export const  SocialLinksTwo = ()  => {

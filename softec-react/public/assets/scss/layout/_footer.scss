@@ -172,9 +172,10 @@
                     margin-bottom: 0;
                 }
                 &:first-child{
+                    
                     & a{
-                        font-weight: 500;
-                        font-size: 20px;
+                        font-weight: 400;
+                        font-size: 15px;
                     }
                 }
                 & span{
@@ -413,14 +414,14 @@
         & ul{
             & li{
                 & a{
-                    font-weight: 400;
-                    font-size: 20px;
+                    font-weight: 500;
+                    font-size: 16px;
                     line-height: 16px;
                     color: #4F5055;
                     font-family: var(--tp-ff-dm);
                     &.first-child{
-                        font-weight: 400;
-                        font-size: 20px;
+                        font-weight: 500;
+                        font-size: 16px;
                         line-height: 16px;
                         color: #4F5055;
                         font-family: var(--tp-ff-dm);
