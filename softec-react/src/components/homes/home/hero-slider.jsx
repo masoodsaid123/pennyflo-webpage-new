@@ -34,11 +34,11 @@ const hero_content = {
 	hero_title: (
 		<>
 			<span className="tp_title">
-				<span className="child">The Leading Customer</span>
+				<span className="child">AI Cash Management Suite</span>
 			</span>{" "}
 			<br />
 			<span>
-				<span className="child">Data Platform</span>
+				<span className="child">for Businesses</span>
 			</span>{" "}
 		</>
 	),
@@ -116,10 +116,10 @@ const HeroSlider = () => {
 					</div>
 					<div className="container">
 						<div className="row justify-content-center">
-							<div className="col-xl-10">
-								<div className="tp-hero__content-box text-center z-index-3">
-									<div className="tp-hero__title-box p-relative">
-										<h2 className="tp-hero__hero-title tp-title-anim">
+							<div className="col-xl-10" style={{ width: "1050px",display: "block", textAlign: "center" }}>
+								<div className="tp-hero__content-box text-center z-index-3" style={{ width: "1050px",display: "block", textAlign: "center" }}>
+									<div className="tp-hero__title-box p-relative" style={{ width: "1050px",display: "block", textAlign: "center" }}>
+										<h2 className="tp-hero__hero-title tp-title-anim" style={{ width: "1050px",display: "block", textAlign: "center" }} >
 											{hero_title}
 										</h2>
 										<div className="tp-hero__title-shape d-none d-sm-block">
