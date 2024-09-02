@@ -9,7 +9,7 @@ import Wrapper from "../layout/wrapper";
 const Home = () => {
   return (
     <Wrapper>
-      <SEO pageTitle={"Softec - Data analytics"} />
+      <SEO pageTitle={"Streamlined Cash Management for Your Business"} />
       <HomeOne />
     </Wrapper>
   );

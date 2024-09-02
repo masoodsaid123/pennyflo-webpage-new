@@ -13,7 +13,7 @@ import Image from "next/image";
 const index = () => {
   return (
     <>
-    <SEO pageTitle={"Oops.! Page Not Found!"} />
+    <SEO pageTitle={"Streamlined Cash Management for Your Business"} />
       <HeaderFour style_error={true} />
       <div id="smooth-wrapper">
         <div id="smooth-content">
