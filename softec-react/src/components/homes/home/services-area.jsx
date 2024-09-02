@@ -8,13 +8,14 @@ import React, { useRef } from 'react';
 import img from "../../../../public/assets/img/service/sv-dashbord.png" 
 
 const service_content = {
-    title: "Explore Our Data Services",
-    sub_title: <>More than 15,000 companies trust and choose Itech</>,
+    title: "Explore our offerings",
+    sub_title: <>We’ll help you to build a sustainable and profitable business</>,
 
     bg_img: "/assets/img/service/sv-bg.jpg",
-    title_2: <>Data Analysis <br /> Tools & Methods</>,
-    des: <>Lorem Ipsum is simply dummy text <br /> of the printing</>,
-    btn_text: "Work with Us",
+    title_2: <>A 365° finance tool</>,
+    des: <>All-in-one platform to track cash flow in real time, do banking, build reports and 
+    get forecasts.</>,
+    btn_text: "Get a Demo",
 
     
 
@@ -28,7 +29,7 @@ const ServicesArea = () => {
     return (
         <>
             <div className="tp-service__area p-relative fix">
-               <div className="tp-service__grey-shape grey-bg"></div>
+               <div className="tp-service__grey-shape grey-bg" style={{ backgroundColor: "white" }}></div>
                <div className="container">
                   <div className="row justify-content-center">
                      <div className="col-lg-8">

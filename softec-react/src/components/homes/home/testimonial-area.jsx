@@ -77,7 +77,7 @@ const TestimonialArea = () => {
     return (
         <>
         <div className="tp-testimonial__area pt-105 pb-200 fix">
-               <div className="container">
+               {/* <div className="container">
 
                   <div className="row justify-content-center">
                      <div className="col-xl-6">
@@ -163,7 +163,7 @@ const TestimonialArea = () => {
                   </div>
 
 
-               </div>
+               </div> */}
             </div>            
         </>
     );

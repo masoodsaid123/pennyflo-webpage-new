@@ -16,19 +16,19 @@ const feature_data = [
    {
       id: 1,
       img: icon_1,
-      title: <>A Unified View of The Customer</>,
+      title: <>A unified view of cash flow in real time</>,
       delay: ".4s",
    },
    {
       id: 2,
       img: icon_2,
-      title: <>Industry Leading Procedures</>,
+      title: <>Collaborate with team & automate workflows</>,
       delay: ".6s",
    },
    {
       id: 3,
       img: icon_3,
-      title: <>Collaboration Across <br /> All Areas</>,
+      title: <> Automated Banking <br /> & Reconciliations </>,
       delay: ".8s",
    },
 ]
@@ -36,7 +36,7 @@ const feature_data = [
 // feature content
 const feature_content = {
    title: "Our Exciting Features",
-   sub_title: "More than 15,000 companies trust and choose Itech",
+   sub_title: "The AI powered co-pilot for finance teams",
 }
 const { title, sub_title } = feature_content
 

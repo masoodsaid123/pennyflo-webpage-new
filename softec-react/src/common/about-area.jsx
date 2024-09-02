@@ -40,15 +40,15 @@ const about_data =[
 
 // about content
 const about_content = {
-    title: "OVER 150K+ CLIENT",
-    sub_title: "We Offer Real Time Data Solutions", 
-    des: <>Excepteur sint occaecat cupidatat officia non proident <br />
-    sunt in culpa qui deserunt.!</>,
+    title: "All-in-One",
+    sub_title: "One platform for all the FinOps needs", 
+    des: <>We know your pain. So, we built the “most efficient cash flow 
+    management software on the market”.</>,
 
     about_list: [
-        <>Various analysis options.</>,
-        <>Page Load (time, size, number of requests).</>,
-        <> Big data analysis.</>,
+        <>Automate tasks & Save time.</>,
+        <>Make data driven informed decisions.</>,
+        <>Mitigate cash shortage risks.</>,
     ],
     btn_text: "About Us",
 

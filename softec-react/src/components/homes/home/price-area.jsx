@@ -17,7 +17,7 @@ const {title, sub_title, save_btn}  = price_content
 const PriceArea = () => {
   return (
     <>
-      <div className="tp-price__area tp-price__pl-pr p-relative pt-110 pb-80">
+      {/* <div className="tp-price__area tp-price__pl-pr p-relative pt-110 pb-80">
         <div className="container">
           <div className="row justify-content-center">
             <div className="col-xl-7 wow tpfadeUp" data-wow-duration=".9s" data-wow-delay=".3s" >
@@ -142,7 +142,7 @@ const PriceArea = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </>
   );
 };

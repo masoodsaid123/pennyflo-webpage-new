@@ -29,8 +29,8 @@ const rank_data = [
         count: 1,
         img: img_1,
         // clg_3: "",
-        domain: "amazon.com",
-        visitors: "2.4B Visits",
+        domain: "Accounts & ERPs",
+        // visitors: "2.4B Visits",
 
     },
     {
@@ -41,8 +41,8 @@ const rank_data = [
         count: 2,
         img: img_2,
         // clg_3: "",
-        domain: "ebay.com",
-        visitors: "700.2M Visits",
+        domain: "Spend & Invoice",
+        // visitors: "700.2M Visits",
 
     },
     {
@@ -53,8 +53,8 @@ const rank_data = [
         count: 3,
         img: img_3,
         // clg_3: "",
-        domain: "walmart.com",
-        visitors: "489.6M Visits",
+        domain: "Payment Solutions",
+        // visitors: "489.6M Visits",
 
     },
     {
@@ -65,8 +65,8 @@ const rank_data = [
         count: 4,
         img: img_4,
         // clg_3: "",
-        domain: "shopify.com",
-        visitors: "386.6M Visits",
+        domain: "File Storage",
+        // visitors: "386.6M Visits",
 
     },
 ]

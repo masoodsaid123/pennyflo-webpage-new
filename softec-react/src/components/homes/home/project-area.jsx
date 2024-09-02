@@ -47,7 +47,7 @@ const ProjectArea = () => {
    };
    return (
       <>
-         <div className="tp-project__area grey-bg pt-50 pb-110 fix">
+         {/* <div className="tp-project__area grey-bg pt-50 pb-110 fix">
             <div className="container">
                <div className="row">
                   <div className="col-xl-6">
@@ -116,7 +116,7 @@ const ProjectArea = () => {
                   </div>
                </div>
             </div>
-         </div>
+         </div> */}
       </>
    );
 };
