@@ -247,27 +247,9 @@
             margin-bottom: 20px;
         }
     }
-    &-section-text{
-        & p{
-            font-weight: 400;
-            font-size: 17px;
-            line-height: 26px;           
-            color: #5F6168;
-            @media #{$lg}{
-                font-size: 16px;
-            }
-            & span{
-                font-weight: 400;
-                font-size: 20px;
-                line-height: 28px;
-                color: #202124;
-                @media #{$xs}{
-                    font-size: 18px;
-                }                
-            }
-        }
-    }
     &-video{
+        width: 300px;
+        padding-top: 137px;
         @media #{$lg,$md}{
             margin-bottom: 40px;
         }
@@ -301,6 +283,60 @@
             color: #000000;
         }
     }
+    &-section-text{
+        & p{
+            font-weight: 400;
+            font-size: 17px;
+            line-height: 26px;           
+            color: #5F6168;
+            @media #{$lg}{
+                font-size: 16px;
+            }
+            & span{
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 28px;
+                color: #202124;
+                @media #{$xs}{
+                    font-size: 18px;
+                }                
+            }
+        }
+    }
+    // &-video{
+    //     @media #{$lg,$md}{
+    //         margin-bottom: 40px;
+    //     }
+    //     @media #{$xs}{
+    //         margin-bottom: 40px;
+    //     }
+    //     & a{
+    //         height: 70px;
+    //         width: 70px;
+    //         background-color: var(--tp-common-yellow-2);
+    //         text-align: center;
+    //         line-height: 70px;
+    //         display: inline-block;
+    //         border-radius: 50%;
+    //         color: var(--tp-common-black);
+    //         font-size: 18px;
+    //         margin-right: 20px;
+    //         transition: .3s;
+    //         cursor: pointer;
+    //         & i{
+    //             margin-left: 5px;
+    //         }
+    //         &:hover{
+    //             background-color: var(--tp-theme-1);
+    //             color: var(--tp-common-white);
+    //         }
+    //     }
+    //     & span{
+    //         font-weight: 500;
+    //         font-size: 18px;
+    //         color: #000000;
+    //     }
+    // }
     &-fun-fact{
         & span{
             font-weight: 600;

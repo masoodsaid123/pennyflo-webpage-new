@@ -3,13 +3,12 @@ import React,{useState} from 'react';
 
 const company_content ={
     sub_title:  "ABOUT THE COMPANY",
-    title: <>Softuch is Made <br />For the Creator.</>,
-    info_1: <>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Rutrum arcu sollicitudin viverra sit elit leo in. Vitae eu tellus mattis quis. Eu, tempus donec nam mauris egestas. Id aliquet ultricies ligula tellus arcu dolor. Massa arcu pulvinar in mattis</>,
-    info_2: <>Feugiat purus congue risus, blandit a sed. In aenean quam aenean purus dictum pellentesque consequat.!</>,
-    info_3: <>Our clean and simple APIs and transparent SaaS model will give you complete peace of mind.</>,
+    title: <>The most advanced<br />FinOps Software.</>,
+    info_1: <> The biggest hurdle affecting businesses is managing their cash flow, which is a measure of their overall financial health. For transforming millions of businesses including SMEs & Start-ups across the world, we are on a mission to build an easy way to facilitate their cash management operations by collaborating with their managers, CFOs, accountants, and finance team with more transparency, using advanced AI.</>,
+    info_2: <>"You may not control the wind. But you can adjust the sails for a longer course"</>,
+    info_3: <>We aim at being your best business ally to guide you through top grade cash management into an outstanding financial era.</>,
 }
 const {sub_title, title, info_1, info_2, info_3}  = company_content
-
 
 const CompanyArea = () => {
   const [isVideoOpen, setIsVideoOpen] = useState(false);
@@ -23,6 +22,14 @@ const CompanyArea = () => {
                         <div className="ab-company-section-box">
                            <h4 className="inner-section-subtitle">{sub_title}</h4>
                            <h3 className="tp-section-title">{title}</h3>
+                           <div className="col-xl-4">
+                              <div className="ab-company-video">
+                                 <a className="popup-video" 
+                                 onClick={() => setIsVideoOpen(true)} 
+                                 ><i className="fas fa-play"></i></a>
+                                 <span>Watch Demo</span>
+                              </div>
+                           </div>
                         </div>
                      </div>
                      <div className="col-xl-6 wow tpfadeRight" data-wow-duration=".9s" data-wow-delay=".5s">
@@ -35,7 +42,7 @@ const CompanyArea = () => {
                         </div>
                      </div>
                   </div>
-                  <div className="row align-items-center">
+                  {/* <div className="row align-items-center">
                      <div className="col-xl-4">
                         <div className="ab-company-video">
                            <a className="popup-video" 
@@ -44,40 +51,7 @@ const CompanyArea = () => {
                            <span>Watch Demo</span>
                         </div>
                      </div>
-                     <div className="col-xl-8">
-                        <div className="row">
-
-                           <div className="col-md-4 col-sm-4 mb-40">
-                              <div className="ab-company-fun-fact-wrap d-flex justify-content-start">
-                                 <div className="ab-company-fun-fact">
-                                    <span>USED BY</span>
-                                    <h4>11,000<em>+</em></h4>
-                                    <p>Creators</p>
-                                 </div>
-                              </div>
-                           </div>
-                           
-                           <div className="col-md-4 col-sm-4 mb-40">
-                              <div className="ab-company-fun-fact-wrap d-flex justify-content-md-center justify-content-left">
-                                 <div className="ab-company-fun-fact">
-                                    <span>VALUE</span>
-                                    <h4>46<em>m</em></h4>
-                                    <p>Revenue per Year</p>
-                                 </div>
-                              </div>
-                           </div>
-                           <div className="col-md-4 col-sm-4 mb-40">
-                              <div className="ab-company-fun-fact-wrap ab-company-border-none d-flex justify-content-md-center justify-content-left">
-                                 <div className="ab-company-fun-fact">
-                                    <span>IN</span>
-                                    <h4>150<em>+</em></h4>
-                                    <p>Countries using</p>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
+                  </div> */}
                </div>
             </div>
 
